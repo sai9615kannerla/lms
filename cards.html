@@ -4,113 +4,104 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style>
             *{
-                margin:0px;
+                margin: 0px;
                 padding:0px;
             }
             .con{
                 display: flex;
-                flex-wrap: wrap;
-                width: 100%;
+                flex-direction: column;
+                width:100%;
                 height:100vh;
-                background-color:rgb(240, 231, 231);
-                margin: auto;
-                align-items: center;
-                padding-left:70px; 
+                background-color: rgb(238, 244, 244);
+                flex-wrap: wrap;
+                justify-content:center;
             }
             .title{
-                margin-top:-450px;
-            }
-            .ab1{
-                color: rgb(208, 35, 35);
-                align-items: center;
-            }
-            .box1{
-                width:44%;
-                height:300px;
-                background-color: aqua;
-                margin:10px;
-                border-radius:23px;
-                margin-right:40px;
-            }
-            .box1{
-                width:44%;
-                height:300px;
-                background-color: aqua;
-                margin:10px;
-                border-radius:23px;
+                width:100%;
+                height:35vh;
+                text-align:center;
                 
+            }
+            .title h1{
+                margin-top:22vh;
+                margin-left:-29px;
+                color: rgb(213, 70, 18);
+            }
+            .boxs{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content:center;
+            }
+            .box1{
+                width: 40%;
+                height:40vh;
+                background-color: rgb(72, 213, 82);
+                text-align: center;
+                margin-right: 40px;
+                border-radius: 13px;
+            }
+            .box2{
+                width:40%;
+                height:40vh;
+                background-color:rgb(221, 151, 28);
+                margin-left: 40px;
                 
             }
             .box1 img{
                 width:80px;
                 height:80px;
-                margin-left:290px;
-                margin-top:10px;
-                border-radius: 50%;
+                margin-top:20px;
+                border-radius:50%;
             }
-            .cont{
-                background-color: blue;
-            }
-            .abc{
+            .box1 p{
                 margin-top: 20px;
-                margin-left:10px;
-                text-align:center;
             }
-            .icon{
-                color:rgb(242, 242, 38);
-                text-align: center;
+            .box1 h4{
+                font-size:25px;
+                margin-top:7px;
+            }
+            .icons{
                 margin-top:10px;
-                margin-right:15px;
+               
+
             }
-            .icon i{
-                width:25px;
-                height:30px;
+            .fa-solid{
+                color: yellow;
+                justify-content: space-between;
+            }
+            .fa-regular{
+                color: yellow;
             }
             
-            .name{
-                text-align: center;
-                margin-top:15px;
-                font-size:22px;
-            }
             
         </style>
-
-    </head>
+    </head> 
+    
     <body>
         <div class="con">
             <div class="title">
-                <h2 class="ab1">Testimonials</h2>
+                <h1>Testimonials</h1>
+            </div>
+            <div class="boxs">
+                <div class="box1">
+                    <img src="IMG20220914131625.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorum molestias doloremque perferendis nostrum! Accusamus earum, exercitationem saepe possimus labore iure? Illo magni adipisci labore voluptas laudantium dicta deserunt debitis saepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipisci.</p>
+                    <h4>Agarwal</h4>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="IMG20220914131625.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorum molestias doloremque perferendis nostrum! Accusamus earum, exercitationem saepe possimus labore iure? Illo magni adipisci labore voluptas laudantium dicta deserunt debitis saepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipiscisaepe possimus labore iure? Illo magni adipisci.</p>
+                    <h4>Agarwal</h4>
+                    <div class="icons">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                    </div>
 
-            </div>
-            <div class="box1">
-                <div>
-                    <img src="IMG20220914131625.jpg" alt="logo"/>
-                </div>
-                <div class="abc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facere aliquid nesciunt similique quidem error voluptate hic minima dicta voluptates, cum rerum animi itaque.
-                    Odio eligendi numquam esse quam dolor sit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facereamet consectetursit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facereamet consectetursit amet 
-                </div>
-                <div class="name">
-                    <h3>Sai Kannerla</h3>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i2  class="fa-solid fa-star"></i>
-                </div>
-            </div>
-            <div class="box1">
-                <div>
-                    <img src="IMG20220914131625.jpg" alt="logo"/>
-                </div>
-                <div class="abc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facere aliquid nesciunt similique quidem error voluptate hic minima dicta voluptates, cum rerum animi itaque.
-                    Odio eligendi numquam esse quam dolor sit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facereamet consectetursit amet consectetur adipisicing elit. Inventore doloribus id veniam perferendis vero sint facereamet consectetursit amet 
-                </div>
-                <div class="name">
-                    <h3>Sai Kannerla</h3>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i2  class="fa-solid fa-star"></i>
-                </div>
+                </div>      
             </div>
 
         </div>
